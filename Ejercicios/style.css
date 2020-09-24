@@ -1,0 +1,65 @@
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    font-family: 'Space Mono', monospace;
+    background-color: #0d1a26;
+    color: #d9bacb;
+    font-size: 16px;
+}
+
+.container {
+    margin: 0 auto;
+    padding: 0 15px;
+    max-width: 600px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height:  100vh;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;   
+    /*justify-content: center;*/
+}
+
+h1 {
+    margin-bottom: 60px;
+    font-weight: 100;  
+    /*word-break: break-all;*/
+}
+
+
+.col-12 {
+    flex: 0 0 100%;
+    max-width: 100%;
+}
+
+
+label {
+    background-color: #d9bacb;
+    color: #0d1a26;
+    width: max-content;
+    padding: 5px 10px;
+    margin: 5px 0;
+    font-size: 12px;
+    display: block;
+}
+
+
+input {   
+    font-family: 'Space Mono', monospace;
+    width: 100%;
+    color: #d9bacb;
+    background-color: transparent;
+    outline: none;
+    border: none;
+    padding: 10px 0;
+    border-bottom: 1px solid #d9bacb;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
